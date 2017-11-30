@@ -1,0 +1,27 @@
+{
+  "name": "xml-enc",
+  "version": "1.0.0",
+  "description": "OT type for XML encryption",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.dpdns.ovh/dominik/xml-enc.git"
+  },
+  "keywords": [
+    "ot",
+    "text",
+    "sharejs"
+  ],
+  "author": "Dominik Preikschat",
+  "license": "ISC",
+  "dependencies": {
+    "xmldom": "^0.1.27"
+  },
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "mocha": "^4.0.1"
+  }
+}
