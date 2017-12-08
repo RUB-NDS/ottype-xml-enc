@@ -4,7 +4,8 @@
   "description": "OT type for XML encryption",
   "main": "lib/index.js",
   "scripts": {
-    "test": "mocha test/test.js"
+    "test": "mocha test/test.js",
+    "build": "babel ./ --out-dir dist/ --ignore ./node_modules,./.babelrc,./npm-debug.log,./package.json --copy-files"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,10 @@
   },
   "devDependencies": {
     "assert": "^1.4.1",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
     "mocha": "^4.0.1"
   }
 }
